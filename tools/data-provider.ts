@@ -1,4 +1,4 @@
-import type { ParseResult } from "../../parser/types";
+import type { ParseResult } from "../lib/types";
 import type { RunnableConfig } from "@langchain/core/runnables";
 import * as fs from "node:fs";
 

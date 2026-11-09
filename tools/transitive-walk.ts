@@ -1,8 +1,8 @@
 import { tool } from "@langchain/core/tools";
 import { z } from "zod";
 import { getAnalysisData } from "./data-provider";
-import { computeTransitiveWalk, type WalkDirection } from "../../lib/graph-math";
-import type { ParsedFile } from "../../parser/types";
+import { computeTransitiveWalk, type WalkDirection } from "../lib/graph-math";
+import type { ParsedFile } from "../lib/types";
 
 export const transitiveWalkTool = tool(
   async (

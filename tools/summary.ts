@@ -1,8 +1,8 @@
 import { tool } from "@langchain/core/tools";
 import { z } from "zod";
 import { getAnalysisData } from "./data-provider";
-import { getFileClassification } from "../../lib/classification";
-import type { ParsedFile } from "../../parser/types";
+import { getFileClassification } from "../lib/classification";
+import type { ParsedFile } from "../lib/types";
 
 export const summaryTool = tool(
   async (_args, config) => {

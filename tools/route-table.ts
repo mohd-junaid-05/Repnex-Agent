@@ -1,7 +1,7 @@
 import { tool } from "@langchain/core/tools";
 import { z } from "zod";
 import { getAnalysisData } from "./data-provider";
-import type { ExtractedRoute } from "../../parser/types";
+import type { ExtractedRoute } from "../lib/types";
 
 export const routeTableTool = tool(
   async ({ filter }: { filter?: string }, config) => {

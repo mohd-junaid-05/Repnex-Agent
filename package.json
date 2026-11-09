@@ -17,5 +17,8 @@
     "langchain": "^1.5.16",
     "managed-deepagents": "^0.10.0",
     "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6"
   }
 }

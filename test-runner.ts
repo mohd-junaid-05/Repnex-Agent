@@ -14,7 +14,7 @@ import {
   allTools,
   setCachedAnalysisData,
 } from "./tools/index";
-import type { ParseResult } from "../parser/types";
+import type { ParseResult } from "./lib/types";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
